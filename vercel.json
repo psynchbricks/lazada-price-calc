@@ -1,8 +1,6 @@
 {
   "version": 2,
-  "builds": [{ "src": "src/app/page.jsx", "use": "@vercel/next" }],
-  "framework": "nextjs",
-  "env": {
-    "NEXT_PUBLIC_APP_NAME": "Lazada Price Calculator"
-  }
+  "builds": [
+    { "src": "package.json", "use": "@vercel/next" }
+  ]
 }
